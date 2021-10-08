@@ -3,10 +3,8 @@ from bs4 import BeautifulSoup
 import requests
 import time 
 
-x = 'y'
-
 #Code Part ---------------------------
-while  x == 'y':
+for _ in range(99999):
     url = 'https://www.worldometers.info/coronavirus/'
 
     response = requests.get(url)
